@@ -6,7 +6,7 @@ end
 defmodule User do
   use Ecto.Schema
 
-  schema "user" do
+  schema "users" do
     field :first_name
     field :last_name
     field :email
